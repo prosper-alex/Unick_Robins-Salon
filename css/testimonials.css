@@ -1,0 +1,7 @@
+.testimonial .testimonial_blog--wrapper .test_blog {
+  box-sizing: border-box;
+}
+
+.testimonial .testimonial_blog--wrapper .test_blog::before {
+  content: "\201C";
+}

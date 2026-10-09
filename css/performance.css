@@ -1,0 +1,17 @@
+.testimonial {
+  background-image:
+    linear-gradient(rgba(249, 240, 255, 0.9), rgba(253, 240, 248, 0.92)),
+    url("../assets/img/testimonial-bg-optimized.webp");
+}
+
+.contact {
+  background-image:
+    linear-gradient(rgba(26, 8, 36, 0.76), rgba(36, 16, 47, 0.72)),
+    url("../assets/img/contact-img-optimized.webp");
+}
+
+@media (max-width: 65em) {
+  .testimonial {
+    background-attachment: scroll;
+  }
+}
